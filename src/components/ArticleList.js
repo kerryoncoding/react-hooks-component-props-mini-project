@@ -2,7 +2,6 @@
 import Article from "./Article"
 
 function ArticleList ({posts}){
-   console.log({posts})
 
    const posting = posts.map(element => {
       return (
